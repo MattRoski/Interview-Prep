@@ -6,5 +6,10 @@ function addUp(num) {
 	return output;
 }
 
+function addUpFaster(n){
+	let total = 0;
+	return n * (n+1) / 2
+}
+
 console.log(addUp(13))
 
