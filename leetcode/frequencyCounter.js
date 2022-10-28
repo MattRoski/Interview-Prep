@@ -1,4 +1,5 @@
 //compares two arrays, checking if array2 has the squared values of array one. order doesnt matter
+
 function same(arr1,arr2){
     if(arr1.length !== arr2.length){ //if the arrays are of different length, return false
         return false;
